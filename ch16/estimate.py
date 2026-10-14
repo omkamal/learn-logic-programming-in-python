@@ -1,4 +1,6 @@
 # timeout: 240
+# WARNING: heavy. It builds 4.5 million answers: about 7 GB of memory
+# and about a minute. heavy: skipped by the checker unless --heavy.
 import subprocess
 import sys
 
