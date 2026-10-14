@@ -1,0 +1,2 @@
+[('cafe',)]
+TypeError: Datalog programs are not callable

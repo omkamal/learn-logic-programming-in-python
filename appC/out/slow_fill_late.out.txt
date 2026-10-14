@@ -1,0 +1,2 @@
+4 4 boards, the same either way
+all fills first is more than 20 times slower: True

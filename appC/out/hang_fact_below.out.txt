@@ -1,0 +1,3 @@
+[(6,)]
+asking for -1
+[killed after 8 s: no answer, no error]

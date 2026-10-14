@@ -1,0 +1,4 @@
+sum_ without for_each  DatalogError: Error: argument missing in aggregate
+max_ with for_each     DatalogError: Error: argument missing in aggregate
+tuple_ without order   DatalogError: Error: argument missing in aggregate
+concat_ without sep    KeyError: 'sep'

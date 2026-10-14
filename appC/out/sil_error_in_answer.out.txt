@@ -1,0 +1,2 @@
+('box', 300.0)
+('empty', ZeroDivisionError('division by zero'))

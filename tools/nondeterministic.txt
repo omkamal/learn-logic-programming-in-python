@@ -29,3 +29,4 @@ ch16/deep_chain.py
 ch17/queens_clingo.py
 ch05/stopwatch.py
 course/m2_05_hang_timeout.py
+appC/var_hang_or_answer.py

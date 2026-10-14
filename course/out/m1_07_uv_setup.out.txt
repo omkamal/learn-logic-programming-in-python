@@ -1,10 +1,10 @@
 $ uv init --python 3.12 --vcs none family-tree
-Initialized project `family-tree` at `/tmp/uv-demo-u5t5ehs4/family-tree`
+Initialized project `family-tree` at `/tmp/uv-demo-kalz7_xv/family-tree`
 $ uv add pyDatalog==0.22.4
 Using CPython 3.12.3 interpreter at: ~/.asdf/installs/python/3.12.3/bin/python3.12
 Creating virtual environment at: .venv
-Resolved 2 packages in 1ms
-Installed 1 package in 1ms
+Resolved 2 packages in 150ms
+Installed 1 package in 8ms
  + pydatalog==0.22.4
 $ uv run python -c 'from pyDatalog import pyDatalog; print("pyDatalog imported")'
 .../site-packages/pyDatalog/pyParser.py:784: SyntaxWarning: invalid escape sequence '\s'

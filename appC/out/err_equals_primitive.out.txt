@@ -1,0 +1,2 @@
+AttributeError: 'pyDatalog.pyEngine.Operation' object has no attribute
+    'equals_primitive'

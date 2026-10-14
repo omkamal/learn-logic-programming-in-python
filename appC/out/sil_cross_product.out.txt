@@ -1,0 +1,3 @@
+2 pairs
+12 pairs
+True

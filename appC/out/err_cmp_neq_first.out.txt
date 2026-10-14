@@ -1,0 +1,4 @@
+DatalogError: Error: left hand side of comparison must be bound: !=/2
+in line None of None
+DatalogError: Error: right hand side of comparison must be bound: !=/2
+in line None of None

@@ -1,8 +1,8 @@
 Query
-[('carol',), ('bob',)]
-('carol',)
-['carol']
+[('bob',), ('carol',)]
+('bob',)
+['bob']
 True False
-[('carol',), ('bob',)]
+[('bob',), ('carol',)]
 [('alice', 'bob'), ('alice', 'carol'), ('bob', 'dave')]
 [('alice', 'bob'), ('alice', 'carol')]

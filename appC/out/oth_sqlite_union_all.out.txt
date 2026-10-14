@@ -1,0 +1,3 @@
+UNION:     (4,)
+UNION ALL: asking
+[killed after 6 s: no answer, no error]

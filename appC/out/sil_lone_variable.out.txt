@@ -1,0 +1,2 @@
+30 pairs, 12 expected
+True

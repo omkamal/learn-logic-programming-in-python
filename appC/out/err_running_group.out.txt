@@ -1,0 +1,2 @@
+DatalogError: Error: argument missing in aggregate
+in line None of None

@@ -1,0 +1,2 @@
+AttributeError: Predicate without definition (or error in resolver):
+    grandparent/2

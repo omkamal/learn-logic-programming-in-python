@@ -1,0 +1,2 @@
+DatalogError: Syntax error: Term or Expression expected
+in line None of None

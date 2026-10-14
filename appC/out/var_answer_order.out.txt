@@ -1,0 +1,3 @@
+different raw orders seen:    2
+different sorted orders seen: 1
+["[('bob',), ('carol',)]"]

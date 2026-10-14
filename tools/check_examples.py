@@ -169,7 +169,7 @@ def main():
         print("only the row order varies:  ", ", ".join(r["file"] for r in results if r.get("varies_in_order_only")) or "none")
     hangs = sum(1 for r in results if r["exit"] == 124 and r["expected_exit"] == 124)
     print(f"\n{len(results)} examples: " + ", ".join(f"{v} {k}" for k, v in sorted(counts.items())) +
-          f"   ({hangs} are deliberate hangs stopped by their timeout)")
+          f"   ({hangs} deliberate hang{'s' if hangs != 1 else ''} stopped by the timeout)")
     if a.json:
         Path(a.json).write_text(json.dumps(results, indent=1))
     return 1 if counts.get("FAIL") or counts.get("DIFF") else 0

@@ -1,0 +1,1 @@
+SyntaxError: '(' was never closed (ask, line 1)

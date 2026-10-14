@@ -1,4 +1,4 @@
-100 links -> 5050 pairs in 0.05 s, peak 52 MB
-200 links -> 20100 pairs in 0.2 s, peak 75 MB
-400 links -> 80200 pairs in 0.89 s, peak 166 MB
-800 links -> 320400 pairs in 3.77 s, peak 534 MB
+100 links -> 5050 pairs in 0.05 s, peak 51 MB
+200 links -> 20100 pairs in 0.2 s, peak 74 MB
+400 links -> 80200 pairs in 0.89 s, peak 165 MB
+800 links -> 320400 pairs in 3.82 s, peak 532 MB

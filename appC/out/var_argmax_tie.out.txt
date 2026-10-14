@@ -1,0 +1,3 @@
+order_by=N       more than one winner: True
+order_by=(N, X)  more than one winner: False
+    always cid

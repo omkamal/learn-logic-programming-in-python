@@ -1,0 +1,2 @@
+[('bob', 'carol'), ('carol', 'bob')]
+True 6 pairs, 2 expected

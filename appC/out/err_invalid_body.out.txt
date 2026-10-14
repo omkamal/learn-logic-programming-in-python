@@ -1,0 +1,2 @@
+DatalogError: Invalid body for clause
+in line None of None
