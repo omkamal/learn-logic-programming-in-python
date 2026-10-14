@@ -1,0 +1,6 @@
+ring of three, all flights one way: FIRST found 3 | LAST no answer in 5 s
+the same ring plus a flight B > A: FIRST found 3 | LAST found 3
+our network, from CAI: FIRST found 4 | LAST no answer in 5 s
+our network plus a flight DXB > CAI: FIRST found 4 | LAST found 4
+ring of four, all flights one way: FIRST found 4 | LAST no answer in 5 s
+the same ring plus a flight B > A: FIRST found 4 | LAST found 4

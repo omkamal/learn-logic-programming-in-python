@@ -29,7 +29,7 @@ def show(label, query):
 show('to install shop:', requires('shop', D))
 show('if tls is removed:', requires(P, 'tls'))
 
-# three slips by three different teams
+# six slips, made by different teams on different days
 for package, wanted in [('shop', 'auth'), ('auth', 'sessions'),
                         ('sessions', 'store'), ('store', 'auth'),
                         ('config', 'logging'), ('logging', 'config')]:

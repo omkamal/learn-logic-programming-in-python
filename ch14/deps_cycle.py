@@ -33,7 +33,7 @@ def show(label, query):
 
 print('cycles before the slips:', names(cyclic(P)))
 
-# three slips by three different teams
+# six slips, made by different teams on different days
 for package, wanted in [('shop', 'auth'), ('auth', 'sessions'),
                         ('sessions', 'store'), ('store', 'auth'),
                         ('config', 'logging'), ('logging', 'config')]:

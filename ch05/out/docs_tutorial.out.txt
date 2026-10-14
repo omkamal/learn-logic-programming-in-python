@@ -1,0 +1,2 @@
+every link also goes back: [2, 3, 4, 5, 6, 7]
+links go one way only: no answer in 5 s

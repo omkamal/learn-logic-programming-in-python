@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 r"""Run every example and check it against its recorded result.
 
-    python tools/check_examples.py --all                 # every folder: ch01 ... ch17, appA, course
+    python tools/check_examples.py --all                 # every folder: ch01 ... ch17, appC, course
     python tools/check_examples.py ch04 ch05             # some chapters
     python tools/check_examples.py ch04/reach.py         # one file
     python tools/check_examples.py --all -j 8 --json report.json

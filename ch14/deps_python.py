@@ -19,7 +19,7 @@ def breaks_if_removed(wanted):      # asked "backwards": scan everything
 
 print('if tls is removed:', *breaks_if_removed('tls'))
 
-# now the three slips from the logic version
+# now the four slips that make the loop of three
 for package, wanted in [('shop', 'auth'), ('auth', 'sessions'),
                         ('sessions', 'store'), ('store', 'auth')]:
     NEEDS.setdefault(package, []).append(wanted)
