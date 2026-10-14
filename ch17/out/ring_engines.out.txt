@@ -1,0 +1,24 @@
+ring of 100 towns: every town reaches every town = 10000 pairs
+  pyDatalog              10000 pairs   0.11 s  ok
+  SWI-Prolog, tabled     10000 pairs   0.02 s  ok
+  SQLite CTE, UNION      10000 pairs   0.01 s  ok
+  clingo                 10000 pairs   0.01 s  ok
+  Z3 Fixedpoint          10000 pairs   0.07 s  ok
+ring of 200 towns: every town reaches every town = 40000 pairs
+  pyDatalog              40000 pairs   0.37 s  ok
+  SWI-Prolog, tabled     40000 pairs   0.04 s  ok
+  SQLite CTE, UNION      40000 pairs   0.02 s  ok
+  clingo                 40000 pairs   0.02 s  ok
+  Z3 Fixedpoint          40000 pairs   0.29 s  ok
+ring of 400 towns: every town reaches every town = 160000 pairs
+  pyDatalog             160000 pairs   1.56 s  ok
+  SWI-Prolog, tabled    160000 pairs   0.13 s  ok
+  SQLite CTE, UNION     160000 pairs   0.10 s  ok
+  clingo                160000 pairs   0.10 s  ok
+  Z3 Fixedpoint         160000 pairs   1.17 s  ok
+ring of 800 towns: every town reaches every town = 640000 pairs
+  pyDatalog             640000 pairs   6.38 s  ok
+  SWI-Prolog, tabled    640000 pairs   0.48 s  ok
+  SQLite CTE, UNION     640000 pairs   0.77 s  ok
+  clingo                640000 pairs   0.48 s  ok
+  Z3 Fixedpoint         640000 pairs   5.04 s  ok

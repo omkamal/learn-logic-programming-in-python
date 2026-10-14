@@ -1,0 +1,2 @@
+pipes_first.py -> [('pump',), ('tank',), ('well',)]
+pipes_last.py -> no answer and no error after 5 s: killed

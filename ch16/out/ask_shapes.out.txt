@@ -1,0 +1,2 @@
+ring of 800, start known      800 answers   0.014 s
+tree of 8191, root known     8190 answers   0.152 s

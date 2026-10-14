@@ -1,0 +1,4 @@
+[('cafe',), ('school',)]
+None
+AttributeError: Predicate without definition (or error in resolver): reach/2
+this line ran as Python

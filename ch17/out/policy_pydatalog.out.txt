@@ -1,0 +1,7 @@
+maya [('delete',), ('read',), ('write',)]
+noor [('read',), ('write',)]
+omar [('read',)]
+pat [('read',)]
+R1 broken? False
+R2 violations: []
+R1 broken now? True

@@ -1,0 +1,4 @@
+spokes in a bicycle: [(64,)]
+bolts in a bicycle:  [(8,)]
+bearings in a wheel: [(2,)]
+rows in all: 37

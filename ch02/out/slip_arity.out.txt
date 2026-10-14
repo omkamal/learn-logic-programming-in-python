@@ -1,0 +1,1 @@
+AttributeError: Predicate without definition (or error in resolver): parent/1

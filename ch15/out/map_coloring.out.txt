@@ -1,0 +1,8 @@
+6 colorings
+('amber', 'teal', 'violet', 'teal')
+('amber', 'violet', 'teal', 'violet')
+('teal', 'amber', 'violet', 'amber')
+('teal', 'violet', 'amber', 'violet')
+('violet', 'amber', 'teal', 'amber')
+('violet', 'teal', 'amber', 'teal')
+[('amber', 'violet', 'amber'), ('violet', 'amber', 'violet')]

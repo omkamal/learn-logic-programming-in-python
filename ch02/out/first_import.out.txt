@@ -1,0 +1,3 @@
+--- first import: 2 line(s) on stderr
+--- second import: 0 line(s) on stderr
+--- first import, PYTHONWARNINGS=ignore: 0 line(s) on stderr

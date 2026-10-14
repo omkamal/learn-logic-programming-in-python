@@ -1,0 +1,4 @@
+fib(10) = 55 after 177 calls
+fib(20) = 6765 after 21891 calls
+fib(25) = 75025 after 242785 calls
+fib(100) would need 1146295688027634168201 calls

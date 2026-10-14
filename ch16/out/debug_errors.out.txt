@@ -1,0 +1,3 @@
+AttributeError: Predicate without definition (or error in resolver): parent/3
+NameError: name 'nanny' is not defined
+[]

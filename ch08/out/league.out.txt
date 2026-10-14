@@ -1,0 +1,4 @@
+[('Foxes', 4), ('Hawks', 3), ('Lions', 7), ('Otters', 2)]
+[('Lions',)]
+[(4,)]
+[('Lions',)]

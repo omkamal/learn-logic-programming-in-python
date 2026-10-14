@@ -1,0 +1,4 @@
+random bills tested: 60
+route + sum_ agrees with Python:     60
+levels (recursive sum_) agrees:      60
+chain totals added by value agrees:  37

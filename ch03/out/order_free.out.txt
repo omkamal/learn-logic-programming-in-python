@@ -1,0 +1,3 @@
+True
+distinct answers among the six rules: 1
+[('alice', 'fay'), ('alice', 'gus'), ('alice', 'hal')]

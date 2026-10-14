@@ -1,0 +1,2 @@
+[('eng',), ('ops',)]
+DatalogError: Error: left hand side of comparison must be bound: >/2

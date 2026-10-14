@@ -1,0 +1,7 @@
+python sum: TypeError: 'for_each' is an invalid keyword argument for sum()
+sum_ alone: DatalogError: Error: argument missing in aggregate
+max_ for_each: DatalogError: Error: argument missing in aggregate
+mean_ alone: DatalogError: Error: argument missing in aggregate
+concat_ no sep: KeyError: 'sep'
+tuple_ alone: DatalogError: Error: argument missing in aggregate
+in the body: DatalogError: Syntax error: Term or Expression expected

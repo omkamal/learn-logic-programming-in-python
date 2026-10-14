@@ -1,0 +1,3 @@
+A, never named: type Operation doesn't define __round__ method
+B, named too early: type Operation doesn't define __round__ method
+C, never named but lucky: [('book', 2400), ('pen', 600)]

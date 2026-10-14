@@ -1,0 +1,4 @@
+3 flights FIRST answer [('DXB',), ('JFK',), ('LHR',)]
+3 flights LAST answer [('DXB',), ('JFK',), ('LHR',)]
+4 flights FIRST answer [('CAI',), ('DXB',), ('JFK',), ('LHR',)]
+4 flights LAST timeout None

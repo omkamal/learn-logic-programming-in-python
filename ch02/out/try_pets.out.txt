@@ -1,0 +1,6 @@
+[('luna',), ('milo',)]
+[('dog',)]
+[('luna', 2023), ('milo', 2021)]
+False
+pet('luna', K) -> [('cat',)]
+pet('zed', K) -> no card

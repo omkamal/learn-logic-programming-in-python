@@ -1,0 +1,4 @@
+maya  real:      [('delete',), ('read',)]
+maya  forgetful: [('delete',), ('read',), ('write',)]
+pat   real:      [('read',)]
+pat   forgetful: [('read',)]

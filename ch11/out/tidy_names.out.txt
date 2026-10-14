@@ -1,0 +1,4 @@
+without cleaning: []
+clean names: [('ann',), ('bob',), ('cid',), ('dee',)]
+unpaid: [('dee',)]
+unpaid now: [('dee',), ('eva',)]

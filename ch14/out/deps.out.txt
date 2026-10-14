@@ -1,0 +1,6 @@
+to install shop: crypto db driver http pool sockets strings templates
+    threads tls web
+to install report: db driver pool strings threads
+if tls is removed, these break: http shop web
+if strings is removed: report shop templates web
+if db is removed: report shop

@@ -1,0 +1,5 @@
+[('leo', 2), ('mia', 1), ('sam', 3), ('zoe', 0)]
+[('leo', 1), ('mia', 3), ('zoe', 2)]
+cave ['leo', 'mia', 'zoe']
+forest ['leo', 'mia', 'zoe']
+castle ['sam', 'zoe']

@@ -1,0 +1,4 @@
+maya [('delete',), ('read',), ('write',)]
+noor [('read',), ('write',)]
+omar [('read',)]
+pat [('read',)]

@@ -1,0 +1,4 @@
+PASS test_direction_matters
+PASS test_loop
+PASS test_one_hop
+PASS test_two_hops

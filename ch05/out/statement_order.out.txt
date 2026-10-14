@@ -1,0 +1,5 @@
+base clause, then FIRST        found 4
+FIRST, then base clause        found 4
+base clause, then LAST         no answer in 5 s
+LAST, then base clause         no answer in 5 s
+base clause, then reach & reach found 4

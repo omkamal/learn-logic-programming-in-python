@@ -1,0 +1,9 @@
+leaf parts: ['axle', 'bearing', 'bolt', 'rim', 'rubber', 'spoke', 'tire', 'tube']
+axle     2
+bearing  4
+bolt     8
+rim      2
+rubber   2
+spoke    64
+tire     2
+tube     3

@@ -1,0 +1,3 @@
+crypto removed, these break: ['http', 'shop', 'tls', 'web']
+shop needs crypto? True
+report needs crypto? False

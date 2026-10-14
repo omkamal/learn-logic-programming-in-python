@@ -1,0 +1,4 @@
+two friends, FIRST: ['ana', 'ben']
+two friends, LAST: ['ana', 'ben']
+three friends, FIRST: ['ana', 'ben', 'cy']
+three friends, LAST: no answer in 5 s

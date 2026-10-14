@@ -1,0 +1,2 @@
+lines of order 3: []
+items with no price: ['kettle']

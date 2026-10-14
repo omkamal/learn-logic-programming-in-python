@@ -1,0 +1,5 @@
+before: 6 people in engineering
+after:  6 people in engineering
+mobile 2 web 2 platform 2
+payroll of engineering: [(610,)]
+added up by hand: 7

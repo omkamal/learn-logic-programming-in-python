@@ -1,0 +1,2 @@
+[('spring',)]
+[('bike', 'cable'), ('bike', 'gear'), ('lamp', 'clip'), ('lamp', 'washer')]

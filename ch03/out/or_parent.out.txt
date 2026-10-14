@@ -1,0 +1,6 @@
+X    
+-----
+frank
+alice
+6 parent pairs, none of them stated
+[('alice', 'dave'), ('alice', 'erin'), ('frank', 'dave'), ('frank', 'erin')]

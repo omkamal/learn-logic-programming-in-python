@@ -1,0 +1,11 @@
+acme         10 people
+engineering   6 people
+mobile        2 people
+operations    3 people
+platform      2 people
+research      0 people
+support       3 people
+web           1 people
+teams with nobody: ['research']
+engineering, adding counts: 7
+engineering, merging sets:  6

@@ -1,0 +1,3 @@
+[('draft',), ('home',)]
+[('about',), ('blog',), ('post1',), ('post2',)]
+[('draft',), ('notes',)]

@@ -1,0 +1,2 @@
+DatalogError: Cannot assert a fact containing Variables
+in line None of None

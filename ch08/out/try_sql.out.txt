@@ -1,0 +1,5 @@
+region  per_sale  per_amount
+------  --------  ----------
+north   170       120       
+south   120       120       
+west    60        60        

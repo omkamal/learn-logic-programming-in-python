@@ -1,0 +1,4 @@
+where from CAI: FIRST found 4 | LAST no answer in 5 s
+who reaches JFK: FIRST found 3 | LAST no answer in 5 s
+every pair: FIRST found 12 | LAST no answer in 5 s
+yes or no: FIRST found True | LAST no answer in 5 s

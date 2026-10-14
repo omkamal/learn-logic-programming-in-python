@@ -1,0 +1,6 @@
+policy as given:
+  R1: no request breaks it
+  R2: no request breaks it
+after somebody lifts pat's block:
+  R1: yes, for example pat may write
+  R2: no request breaks it

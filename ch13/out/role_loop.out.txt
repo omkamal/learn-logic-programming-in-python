@@ -1,0 +1,5 @@
+maya [('delete',), ('read',), ('write',)]
+noor [('delete',), ('read',), ('write',)]
+omar [('delete',), ('read',), ('write',)]
+pat [('delete',), ('read',)]
+roles in a loop: [('admin',), ('editor',), ('viewer',)]

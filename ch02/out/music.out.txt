@@ -1,0 +1,12 @@
+Title        | Genre
+-------------|------
+Blue Harbor  | jazz 
+Night Trains | jazz 
+Artist      | Genre     
+------------|-----------
+Orbit Seven | electronic
+('Blue Harbor', 'Mira Lane')
+('Night Trains', 'Mira Lane')
+('Slow Hours', 'Tomas Reyes')
+True
+False

@@ -1,0 +1,6 @@
+('alice', 'bob')
+('alice', 'carol')
+('alice', 'dave')
+('alice', 'erin')
+('bob', 'dave')
+('carol', 'erin')

@@ -1,0 +1,5 @@
+after 5 s: running=True, memory=38068 kB
+after 10 s: running=True, memory=38068 kB
+after 15 s: running=True, memory=38068 kB
+after 20 s: running=True, memory=38068 kB
+after 25 s: running=True, memory=38068 kB

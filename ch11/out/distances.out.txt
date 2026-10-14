@@ -1,0 +1,5 @@
+CAI DXB 2423 km
+DXB LHR 5474 km
+LHR JFK 5570 km
+over 5000 km: [('DXB', 'LHR'), ('LHR', 'JFK')]
+JFK NRT 10851 km

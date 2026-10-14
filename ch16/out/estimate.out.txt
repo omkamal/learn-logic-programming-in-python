@@ -1,0 +1,3 @@
+a chain of 3000 links: expect 4501500 pairs, about 52 s, about 6752 MB
+measured:                 4501500 pairs, 54 s, 6792 MB
+a tree of 3000 stops (2999 links): 28917 pairs, 0.35 s, 94 MB

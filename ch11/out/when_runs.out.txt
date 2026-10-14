@@ -1,0 +1,9 @@
+after the facts: 0
+after writing the rule: 0
+[('book', 168), ('lamp', 280), ('pen', 42)]
+after one query: 3
+[('book', 168), ('lamp', 280), ('pen', 42)]
+after the same query: 6
+[(168,)]
+after asking for book: 7
+arguments seen: [300, 1200, 1999] int

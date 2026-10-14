@@ -1,0 +1,21 @@
+X    
+-----
+bob  
+carol
+X  
+---
+bob
+X     | Y    
+------|------
+carol | erin 
+bob   | dave 
+alice | carol
+alice | bob  
+Z   
+----
+dave
+erin
+X     | Y   
+------|-----
+alice | erin
+alice | dave

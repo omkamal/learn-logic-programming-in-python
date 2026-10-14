@@ -1,0 +1,5 @@
+maya ['read', 'write', 'delete']
+noor ['read', 'write']
+omar ['read']
+pat ['read', 'write']
+spreadsheet: may pat write? no

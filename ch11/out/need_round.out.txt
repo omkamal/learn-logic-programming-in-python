@@ -1,0 +1,2 @@
+[('book', 168), ('lamp', 279), ('pen', 42)]
+TypeError: type Operation doesn't define __round__ method

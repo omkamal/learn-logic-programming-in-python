@@ -1,0 +1,5 @@
+all parts: 13
+leaves:    axle bearing bolt grip rim spoke tire tube
+top level: bicycle
+leaves, not-first: []
+is a bolt a leaf? True / True

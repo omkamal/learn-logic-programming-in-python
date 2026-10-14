@@ -1,0 +1,10 @@
+    FROM product ()
+    FROM supplier ()
+    FROM supplier WHERE supplier.name = ? ('acme',)
+[('book', 'dubai'), ('desk', 'dubai'), ('lamp', 'cairo'), ('pen', 'cairo')]
+    FROM supplier WHERE supplier.name = ? ('acme',)
+    UPDATE supplier SET city=? WHERE supplier.name = ? ('giza', 'acme')
+    FROM product ()
+    FROM supplier WHERE supplier.name = ? ('bolt',)
+    FROM supplier WHERE supplier.name = ? ('acme',)
+[('book', 'dubai'), ('desk', 'dubai'), ('lamp', 'giza'), ('pen', 'giza')]

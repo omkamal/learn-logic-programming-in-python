@@ -1,0 +1,4 @@
+['DXB', 'JFK', 'LHR']
+RecursionError: maximum recursion depth exceeded
+['CAI', 'DXB', 'JFK', 'LHR']
+recursion limit: 1000

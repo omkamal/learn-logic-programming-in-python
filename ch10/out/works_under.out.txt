@@ -1,0 +1,3 @@
+[('ann',), ('bob',)]
+[('bob',), ('cid',)]
+[('bob', 'ann'), ('cid', 'ann'), ('cid', 'bob')]

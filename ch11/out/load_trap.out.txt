@@ -1,0 +1,5 @@
+{'item': 'pen', 'category': 'stationery', 'cents': '300'}
+(1, 'book', '1200')
+(1, 'pen', '300300300')
+(2, 'lamp', '19991999')
+(2, 'mug', '450')

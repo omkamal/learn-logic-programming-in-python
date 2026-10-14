@@ -1,0 +1,5 @@
+round 1: 11 new
+round 2: 8 new
+round 3: 3 new
+  projects-sales.csv is written in round 3
+round 4: 0 new

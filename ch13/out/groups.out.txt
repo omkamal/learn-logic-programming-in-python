@@ -1,0 +1,6 @@
+cora is in: contractors everyone interns staff
+ivan  roles: ['viewer']  may: ['read']
+cora  roles: ['viewer']  may: ['read']
+lena  roles: ['editor', 'viewer']  may: ['read', 'write']
+maya  roles: ['admin']  may: ['delete', 'read', 'write']
+after the slip, ivan is in: everyone interns staff

@@ -1,0 +1,7 @@
+cycles before the slips: []
+in a cycle: auth config logging sessions store
+stuck:      auth config logging sessions shop store
+shop needs: auth crypto db driver http pool sessions sockets store strings
+    templates threads tls web
+report is stuck? False
+auth needs: auth sessions store

@@ -1,0 +1,6 @@
+q1 is inside:       budgets drive finance
+sam can edit in:    budgets finance q1
+sam can view in:    budgets campaigns drive finance marketing q1
+who can view q1:    sam tia
+who can edit taxes: []
+sam on taxes:       []

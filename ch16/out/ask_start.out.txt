@@ -1,0 +1,7 @@
+question                            answers  seconds
+reach(0, Y)         start known         800    0.014
+reached_by(800, X)  end known           800    0.013
+reach(0, 800)       yes or no             1    0.020
+reach(X, 800)       end known           800    3.537
+reach(X, Y)         nothing known    320400    3.903
+reach_last(0, Y)    start known         800    4.773

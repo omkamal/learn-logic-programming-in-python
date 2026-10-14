@@ -1,0 +1,3 @@
+AttributeError: Predicate without definition (or error in resolver):
+    Base.city[1]==/3
+[('book', 'dubai'), ('desk', 'dubai'), ('lamp', 'cairo'), ('pen', 'cairo')]

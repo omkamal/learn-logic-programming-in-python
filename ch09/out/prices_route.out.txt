@@ -1,0 +1,7 @@
+(18, 'CAI>DXB>JFK')
+(19, 'CAI>DXB>LHR>JFK')
+(20, 'CAI>LHR>JFK')
+P          
+-----------
+CAI>DXB>JFK
+[('DXB', 'CAI>DXB'), ('JFK', 'CAI>DXB>JFK'), ('LHR', 'CAI>DXB>LHR')]

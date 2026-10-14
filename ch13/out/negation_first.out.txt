@@ -1,0 +1,7 @@
+who can do what: []
+may pat read?    True
+may pat write?   False
+what can noor do? [('read',), ('write',)]
+what can pat do? []
+after the retract: 8 rows
+pat: ['read', 'write']

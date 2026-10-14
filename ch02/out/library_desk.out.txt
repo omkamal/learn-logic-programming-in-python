@@ -1,0 +1,6 @@
+[('Maps of Salt',)]
+[('mona',)]
+False
+[('rania',)]
+[('nabil', 'The Glass Orchard'), ('rania', 'Quiet Engines')]
+[('mona',), ('nabil',), ('rania',)]

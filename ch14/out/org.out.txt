@@ -1,0 +1,10 @@
+acme         10 people
+engineering   6 people
+mobile        2 people
+operations    3 people
+platform      2 people
+support       3 people
+web           1 people
+payroll of engineering: [(610,)]
+headcount of research:  []
+teams with nobody:      [('research',)]

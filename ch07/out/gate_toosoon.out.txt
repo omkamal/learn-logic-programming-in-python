@@ -1,0 +1,3 @@
+[('book',)]
+DatalogError: Error: left hand side of comparison must be bound: >/2
+DatalogError: Error: right hand side of comparison must be bound: >/2

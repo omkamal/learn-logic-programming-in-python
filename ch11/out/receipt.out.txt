@@ -1,0 +1,10 @@
+order 1
+  book    12.00
+  pen      9.00
+  tax      2.94
+  DUE     23.94
+order 2
+  lamp    39.98
+  mug      4.50
+  tax      6.23
+  DUE     50.71

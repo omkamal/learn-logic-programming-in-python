@@ -1,0 +1,5 @@
+[('mia', 3), ('noor', 1), ('pat', 2)]
+[('mia', 'atlas, birds, comets'), ('noor', 'atlas'), ('pat', 'birds, comets')]
+[('mia', ('atlas', 'birds', 'comets')),
+ ('noor', ('atlas',)),
+ ('pat', ('birds', 'comets'))]

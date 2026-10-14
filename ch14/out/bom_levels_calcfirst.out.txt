@@ -1,0 +1,2 @@
+spokes in a bicycle: []
+rows in all: 13

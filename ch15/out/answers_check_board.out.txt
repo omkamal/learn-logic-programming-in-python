@@ -1,0 +1,6 @@
+ok (2, 0, 1) True
+ok (2, 3, 2) True
+ok (0, 3, 1) True
+ok (2, 1, 3) True
+ok (0, 1, 2) True
+ok (3, 1, 1) True

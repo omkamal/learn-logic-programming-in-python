@@ -1,0 +1,1 @@
+[('alice', 'bob'), ('alice', 'carol'), ('bob', 'bob'), ('bob', 'carol')]

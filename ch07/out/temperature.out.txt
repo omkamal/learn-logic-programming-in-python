@@ -1,0 +1,3 @@
+[('fri', 95), ('mon', 14), ('thu', 68), ('tue', 32), ('wed', 41)]
+[('fri',)]
+DatalogError: Error: left hand side of comparison must be bound: >=/2

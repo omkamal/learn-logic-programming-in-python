@@ -1,0 +1,7 @@
+[('deimos',), ('phobos',)]
+[('mars', 'deimos'), ('mars', 'phobos'), ('saturn', 'mimas')]
+[]
+P    
+-----
+earth
+[]

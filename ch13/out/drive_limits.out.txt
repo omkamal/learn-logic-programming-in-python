@@ -1,0 +1,4 @@
+sam can edit in: []
+sam can view in: campaigns drive marketing
+granted on q1?   True
+allowed on q1?   False

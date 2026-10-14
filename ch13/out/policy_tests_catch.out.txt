@@ -1,0 +1,2 @@
+caught: ('maya', 'write', 'report')
+ok:     pat write report

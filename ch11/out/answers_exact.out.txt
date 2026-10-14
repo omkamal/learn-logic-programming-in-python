@@ -1,0 +1,5 @@
+0.5 comes back unchanged: True
+0.1 comes back unchanged: False
+100 comes back unchanged: True
+19.99 comes back unchanged: False
+1180591620717411303424 comes back unchanged: True

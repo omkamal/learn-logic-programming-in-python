@@ -1,0 +1,2 @@
+18 colorings with three colors
+('amber', 'teal', 'violet', 'amber', 'teal', 'amber', 'amber')

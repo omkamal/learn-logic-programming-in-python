@@ -1,0 +1,5 @@
+report needs   5 answers
+config needs   2 answers
+auth needs     no answer within 5 s
+shop needs     no answer within 5 s
+who needs tls  no answer within 5 s

@@ -1,0 +1,5 @@
+N  solutions  check at once  all columns first
+4          2        0.002 s           0.003 s
+5         10        0.004 s           0.036 s
+6          4        0.012 s           0.656 s
+7         40        0.053 s          14.457 s

@@ -1,0 +1,9 @@
+above cid:
+    FROM employee ()
+    FROM employee WHERE employee.name = ? ('bob',)
+    FROM employee WHERE employee.name = ? ('ann',)
+    FROM employee WHERE employee.name IS NULL ()
+[('ann',), ('bob',), (None,)]
+every pair:
+    FROM employee ()
+[('ann', None), ('bob', 'ann'), ('cid', 'bob'), ('dee', 'bob')]

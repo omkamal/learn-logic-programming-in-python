@@ -1,0 +1,6 @@
+Query
+[('bob',), ('carol',)]
+[('bob',), ('carol',)]
+[()]
+[]
+True False

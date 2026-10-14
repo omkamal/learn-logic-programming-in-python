@@ -1,0 +1,2 @@
+cai to jfk: yes
+[killed after 5 s: no answer, no error]

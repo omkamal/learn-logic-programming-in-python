@@ -1,0 +1,3 @@
+pyDatalog: 50000 answers in 1.0 s
+Python recursion limit: 1000
+Python: RecursionError: maximum recursion depth exceeded

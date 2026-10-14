@@ -1,0 +1,4 @@
+after writing the rule: 1
+[('book', 140), ('pen', 140)]
+[('book', 140), ('pen', 140)]
+after two queries: 1

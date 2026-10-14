@@ -1,0 +1,3 @@
+3 jazz albums
+4 jazz albums
+[('Midnight Brass', 'jazz'), ('Slow Hours', 'jazz')]

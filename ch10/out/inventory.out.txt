@@ -1,0 +1,4 @@
+[('gem',), ('potion',), ('pouch',), ('rope',)]
+[('backpack',), ('pouch',)]
+[('hero', 13), ('mage', 4)]
+[('hero',), ('mage',)]

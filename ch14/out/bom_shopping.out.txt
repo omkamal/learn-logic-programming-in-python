@@ -1,0 +1,8 @@
+axle     2
+bearing  4
+bolt     8
+grip     2
+rim      2
+spoke    64
+tire     2
+tube     3

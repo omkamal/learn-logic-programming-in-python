@@ -1,0 +1,31 @@
+# Examples whose printed output differs from run to run ON PURPOSE (answer order, ties, timings).
+# check_examples.py compares only their exit code.
+ch02/answers_data.py
+ch02/order_runs.py
+ch02/uv_setup.py
+ch02/v_gotcha.py
+ch05/watch_hang.py
+ch09/leaderboard_tie.py
+ch09/leaderboard_tie_repeat.py
+ch15/break_ok.py
+ch15/chalk.py
+ch15/fill_late.py
+ch15/queens_n.py
+ch16/ask_shapes.py
+ch16/ask_start.py
+ch16/estimate.py
+ch16/growth_table.py
+ch17/queens_bigger.py
+ch17/queens_pydatalog.py
+ch17/queens_z3.py
+ch17/ring_engines.py
+course/m1_03_answers.py
+course/m1_05_order_between_runs.py
+course/m1_07_uv_setup.py
+course/m4_03_queens.py
+course/m4_08_scaling.py
+ch15/queens8.py
+ch16/deep_chain.py
+ch17/queens_clingo.py
+ch05/stopwatch.py
+course/m2_05_hang_timeout.py

@@ -1,0 +1,6 @@
+ines made 4 films
+kofi made 2 films
+lena made 3 films
+omar made 3 films
+[('ines', 112), ('kofi', 107), ('lena', 97), ('omar', 131)]
+statements sent: ['FROM film', 'FROM film']

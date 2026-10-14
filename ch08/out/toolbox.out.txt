@@ -1,0 +1,8 @@
+[('eng', 220), ('hr', 70), ('ops', 170)]
+[('eng', 2), ('hr', 1), ('ops', 2)]
+[('eng', 120), ('hr', 70), ('ops', 90)]
+[('eng', 100), ('hr', 70), ('ops', 80)]
+[('eng', 110), ('hr', 70), ('ops', 85)]
+[('eng', 'ann, bob'), ('hr', 'eli'), ('ops', 'cid, dee')]
+[('eng', 'ann'), ('hr', 'eli'), ('ops', 'dee')]
+[('eng', ('ann', 'bob')), ('hr', ('eli',)), ('ops', ('cid', 'dee'))]

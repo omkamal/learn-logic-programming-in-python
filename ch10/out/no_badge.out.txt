@@ -1,0 +1,2 @@
+[]
+AttributeError: type object 'NoMixin' has no attribute 'salary'

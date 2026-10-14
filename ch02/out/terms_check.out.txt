@@ -1,0 +1,4 @@
+X is a variable: True
+Y is a variable: True
+x is a variable: False
+parent(...) builds a Query

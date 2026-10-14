@@ -1,0 +1,2 @@
+0.1 in Python; 0.09999999962747097 from the engine
+10 as integer cents: exact

@@ -1,0 +1,7 @@
+X     | Y    
+------|------
+bob   | dave 
+alice | carol
+X     | Y   
+------|-----
+alice | dave

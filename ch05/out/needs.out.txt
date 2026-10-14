@@ -1,0 +1,3 @@
+[('bread',), ('flour',), ('salt',), ('scraps',), ('starter',), ('water',)]
+[('bread',), ('scraps',), ('starter',)]
+[]

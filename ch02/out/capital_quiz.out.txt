@@ -1,0 +1,3 @@
+capital('peru', City) -> ['lima']
+capital(Country, 'nairobi') -> ['kenya']
+capital('atlantis', City) -> no card matches

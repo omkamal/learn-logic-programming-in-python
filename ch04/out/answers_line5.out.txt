@@ -1,0 +1,6 @@
+round 1: 4 new
+round 2: 3 new [('a', 'c')]
+round 3: 2 new [('a', 'd')]
+round 4: 1 new [('a', 'e')]
+round 5: 0 new (stop)
+total: 10 cards; True

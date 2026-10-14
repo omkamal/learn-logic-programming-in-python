@@ -1,0 +1,11 @@
+SELECT * FROM employee
+    ('ann', None, 150)
+    ('bob', 'ann', 100)
+    ('cid', 'bob', 80)
+    ('dee', 'bob', 90)
+SELECT name FROM employee WHERE salary > 85
+    ('ann',)
+    ('bob',)
+    ('dee',)
+SELECT name FROM employee WHERE manager_name IS NULL
+    ('ann',)

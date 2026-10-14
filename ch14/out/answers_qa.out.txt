@@ -1,0 +1,2 @@
+headcount of qa: []
+teams with nobody: [('qa',), ('research',)]

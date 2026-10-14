@@ -1,0 +1,9 @@
+1 cook(s): done after 13 hours
+2 cook(s): done after 8 hours
+    hour 0: start prep (2 h)
+    hour 2: start dessert (2 h)
+    hour 2: start roast (4 h)
+    hour 4: start soup (3 h)
+    hour 6: start salad (1 h)
+    hour 7: start plate (1 h)
+3 cook(s): done after 7 hours

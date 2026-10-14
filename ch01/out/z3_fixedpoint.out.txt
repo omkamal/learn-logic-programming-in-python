@@ -1,0 +1,3 @@
+CAI reaches JFK: True
+JFK reaches CAI: False
+CAI reaches: ['CAI', 'DXB', 'JFK', 'LHR']

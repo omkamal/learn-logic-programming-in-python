@@ -1,0 +1,4 @@
+[('DXB',), ('JFK',), ('LHR',)]
+[('CAI',), ('DXB',), ('LHR',)]
+True
+False

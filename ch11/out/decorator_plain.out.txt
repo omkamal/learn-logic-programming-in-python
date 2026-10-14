@@ -1,0 +1,6 @@
+calling vat_cents with 300
+it returned 42
+42
+calling gross_cents with 300
+it returned 342
+342

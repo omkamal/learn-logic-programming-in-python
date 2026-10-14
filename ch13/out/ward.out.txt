@@ -1,0 +1,8 @@
+nora  may enter icu
+vera  may enter maternity
+will  may enter icu
+yuri  may enter general
+icu:   ['nora', 'will']
+yuri:  ['general']
+xena:  []
+xena after the ban is lifted: ['general']

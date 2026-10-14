@@ -1,0 +1,5 @@
+[]
+None
+AttributeError: Predicate without definition (or error in resolver):
+Member.borrower[1]==/3
+mia

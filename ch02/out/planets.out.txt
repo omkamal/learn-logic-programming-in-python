@@ -1,0 +1,11 @@
+[('deimos',), ('phobos',)]
+P      
+-------
+jupiter
+P    
+-----
+earth
+N
+-
+3
+[]

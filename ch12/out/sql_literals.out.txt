@@ -1,0 +1,9 @@
+salary > 85
+    FROM employee WHERE employee.salary > ? (85,)
+    ['ann', 'bob', 'dee']
+salary == 100
+    FROM employee ()
+    ['bob']
+90 <= salary < 150
+    FROM employee WHERE employee.salary >= ? (90,)
+    ['bob', 'dee']

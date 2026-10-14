@@ -1,0 +1,2 @@
+spokes in a bicycle: [(64,)]
+bolts in a bicycle:  [(4,)]

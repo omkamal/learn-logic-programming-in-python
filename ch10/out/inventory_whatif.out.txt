@@ -1,0 +1,4 @@
+pouch [('gem',), ('potion',)] purse []
+backpack [('gem',), ('potion',), ('pouch',), ('purse',), ('rope',)]
+pouch [('gem',)] purse [('potion',)]
+backpack [('gem',), ('potion',), ('pouch',), ('purse',), ('rope',)]

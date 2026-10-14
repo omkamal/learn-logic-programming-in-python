@@ -1,0 +1,1 @@
+DatalogError: Invalid body for clause

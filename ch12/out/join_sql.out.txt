@@ -1,0 +1,1 @@
+[('book', 'dubai'), ('desk', 'dubai'), ('lamp', 'cairo'), ('pen', 'cairo')]

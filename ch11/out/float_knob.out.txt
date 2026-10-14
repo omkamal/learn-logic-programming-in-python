@@ -1,0 +1,9 @@
+Float_Precision = 8
+    ('a', 0.09999999962747097)
+    ('b', 1.6800000071525574)
+Float_Precision = None
+    ('a', 0.1)
+    ('b', 1.6800000000000002)
+Float_Precision = 'Fraction'
+    ('a', Fraction(1, 10))
+    ('b', Fraction(8400000000000001, 5000000000000000))

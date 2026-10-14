@@ -1,0 +1,3 @@
+1 cook(s): best finish 13 h, found among 168 legal plans
+2 cook(s): best finish 8 h, found among 21168 legal plans
+3 cook(s): best finish 7 h, found among 38920 legal plans

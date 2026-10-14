@@ -1,0 +1,4 @@
+[('bicycle>frame>bolt', 4), ('bicycle>handlebar>bolt', 4)]
+spokes in a bicycle: [(64,)]
+bolts in a bicycle:  [(8,)]
+spokes in a wheel:   [(32,)]

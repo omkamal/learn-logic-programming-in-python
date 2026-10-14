@@ -1,0 +1,5 @@
+6 trips, 5 different costs
+(65, 'hub>mill>port')
+(65, 'hub>north>east>mill>port')
+[('hub>mill>port',)]
+[('hub>mill>port',)]

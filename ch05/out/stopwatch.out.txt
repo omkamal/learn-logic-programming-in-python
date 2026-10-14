@@ -1,0 +1,2 @@
+FIRST: [('CAI',), ('DXB',), ('JFK',), ('LHR',)]
+LAST: no answer and no error after 10 s; it used 10.0 s of CPU

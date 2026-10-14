@@ -1,0 +1,5 @@
+written down: [('admin', 'editor'), ('editor', 'viewer')]
+worked out:   [('admin', 'editor'), ('admin', 'viewer'), ('editor', 'viewer')]
+admin includes [('editor',), ('viewer',)]
+admin inherits from viewer? False
+admin includes viewer?      True

@@ -1,0 +1,2 @@
+SQL: SELECT employee.name AS employee_name, employee.manager_name AS employee_manager_name, employee.salary AS employee_salary FROM employee WHERE employee.salary > ? (85,)
+Employee ['ann', 'bob', 'dee']

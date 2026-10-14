@@ -1,0 +1,3 @@
+any 8 of the 64 squares:     4426165368
+one queen in every row:      16777216
+... and no shared column:    40320

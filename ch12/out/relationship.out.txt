@@ -1,0 +1,6 @@
+SQL statement sent
+Employee(bob) is below Employee(ann)
+Employee(cid) is below Employee(ann)
+Employee(cid) is below Employee(bob)
+Employee(dee) is below Employee(ann)
+Employee(dee) is below Employee(bob)

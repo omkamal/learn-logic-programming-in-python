@@ -1,0 +1,5 @@
+round 1: CAI>DXB:4 CAI>LHR:12 DXB>JFK:14 DXB>LHR:7 LHR>JFK:8
+round 2: CAI>JFK:18 CAI>JFK:20 CAI>LHR:11 DXB>JFK:15
+round 3: CAI>JFK:19
+round 4: 
+10 cards; same as the engine: True

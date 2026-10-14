@@ -1,0 +1,3 @@
+before create_terms: vat_cents 42
+after create_terms:  atomized 42
+given a blank: Operation

@@ -1,0 +1,10 @@
+dept  total  headcount  top
+----  -----  ---------  ---
+eng   220    2          120
+hr    70     1          70 
+ops   170    2          90 
+dept  total  distinct_total
+----  -----  --------------
+eng   240    120           
+hr    70     70            
+ops   170    170           

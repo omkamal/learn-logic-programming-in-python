@@ -1,0 +1,2 @@
+capital('south africa', City) -> ['bloemfontein', 'cape town', 'pretoria']
+capital(Country, 'cape town') -> ['south africa']

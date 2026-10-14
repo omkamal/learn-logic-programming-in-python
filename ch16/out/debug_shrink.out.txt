@@ -1,0 +1,2 @@
+30 classmate pairs (expected 12)
+[('ana', 'dee'), ('dee', 'ana')]

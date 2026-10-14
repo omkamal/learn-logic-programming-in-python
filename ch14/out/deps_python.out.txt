@@ -1,0 +1,5 @@
+to install shop: 11 packages
+if tls is removed: http shop web
+RecursionError: maximum recursion depth exceeded
+to install shop: 14 packages
+in a cycle: auth sessions store

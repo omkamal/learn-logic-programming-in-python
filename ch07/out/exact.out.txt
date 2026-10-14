@@ -1,0 +1,3 @@
+factorial 0..25 equal Python: True
+15511210043330985984000000
+fib[300] equals Python: True

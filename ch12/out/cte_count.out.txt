@@ -1,0 +1,4 @@
+[('ann',), ('bob',)]
+statements sent by the rules: 3
+[('ann',), ('bob',)]
+statements sent by the CTE: 1

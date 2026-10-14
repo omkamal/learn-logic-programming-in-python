@@ -1,0 +1,6 @@
+eng [('ann', 120), ('bob', 100)]
+hr [('eli', 70)]
+ops [('cid', 80), ('dee', 90)]
+eng total 220 people 2 top 120
+hr total 70 people 1 top 70
+ops total 170 people 2 top 90

@@ -1,0 +1,12 @@
+X  
+---
+bob
+X     | Y    
+------|------
+carol | erin 
+bob   | dave 
+alice | carol
+alice | bob  
+[()]
+[]
+[]

@@ -1,0 +1,4 @@
+a wheel contains:  axle bearing hub rim spoke tire
+a bicycle contains 12 different parts
+bolts end up in:   bicycle frame handlebar
+axles end up in:   bicycle hub wheel

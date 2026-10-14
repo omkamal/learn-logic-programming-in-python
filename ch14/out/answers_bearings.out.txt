@@ -1,0 +1,2 @@
+[('bicycle>wheel>hub>bearing', 4)]
+bearings in a bicycle: [(4,)]

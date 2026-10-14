@@ -1,0 +1,5 @@
+round 1: [('alice', 'bob'), ('bob', 'carol'), ('carol', 'dave')]
+round 2: [('alice', 'carol'), ('bob', 'dave')]
+round 3: [('alice', 'dave')]
+round 4: []
+same answers as the engine: True

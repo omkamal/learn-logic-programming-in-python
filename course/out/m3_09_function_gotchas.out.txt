@@ -1,0 +1,2 @@
+TypeError: type Operation doesn't define __round__ method
+[('book', AttributeError("'TypeError' object has no attribute '__call__'"))]

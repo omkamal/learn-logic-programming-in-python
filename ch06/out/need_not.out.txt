@@ -1,0 +1,3 @@
+reached:    ['CAI', 'DXB', 'JFK', 'LHR']
+all cities: ['CAI', 'DXB', 'JFK', 'LHR', 'NRT']
+not reached (plain Python): ['NRT']

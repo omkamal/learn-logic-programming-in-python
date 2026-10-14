@@ -1,0 +1,12 @@
+7 rows
+maya  delete
+maya  read
+maya  write
+noor  read
+noor  write
+omar  read
+pat   read
+may omar delete? False
+may pat write?   False
+may pat read?    True
+may zed read?    False

@@ -1,0 +1,8 @@
+4 queens: safe boards per row [1, 4, 6, 4, 2]
+   tries 60 against 256 column lists
+   solutions 2 first (1, 3, 0, 2)
+   plain Python took 0.0 ms
+8 queens: safe boards per row [1, 8, 42, 140, 344, 568, 550, 312, 92]
+   tries 15720 against 16777216 column lists
+   solutions 92 first (0, 4, 7, 5, 2, 6, 1, 3)
+   plain Python took 9.4 ms

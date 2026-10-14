@@ -1,0 +1,7 @@
+family line     cards= 6 rounds=3 notebook=first: True  first=last: True
+branching tree  cards= 6 rounds=2 notebook=first: True  first=last: True
+line of five    cards=10 rounds=4 notebook=first: True  first=last: True
+flights         cards= 6 rounds=3 notebook=first: True  first=last: True
+folders         cards=22 rounds=3 notebook=first: True  first=last: True
+prerequisites   cards=12 rounds=3 notebook=first: True  first=last: True
+rumors          cards=14 rounds=3 notebook=first: True  first=last: True

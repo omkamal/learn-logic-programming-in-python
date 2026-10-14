@@ -1,0 +1,2 @@
+[('rug',)]
+[('lamp', 'west'), ('mug', 'east'), ('rug', 'east'), ('rug', 'west')]

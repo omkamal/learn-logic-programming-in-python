@@ -1,0 +1,2 @@
+('  Hello Logic World ', 'hello-logic-world')
+('Python Inside Rules', 'python-inside-rules')

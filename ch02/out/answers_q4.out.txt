@@ -1,0 +1,5 @@
+AttributeError: Predicate without definition (or error in resolver): loan/1
+X   
+----
+mona
+[('mona', 'Maps of Salt')]

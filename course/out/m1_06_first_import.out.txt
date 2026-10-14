@@ -1,0 +1,5 @@
+--- first import: 2 line(s) on stderr
+.../site-packages/pyDatalog/pyParser.py:784: SyntaxWarning: invalid escape sequence '\s'
+  r = re.compile('^\s*')
+--- second import: 0 line(s) on stderr
+--- first import with PYTHONWARNINGS=ignore: 0 line(s) on stderr

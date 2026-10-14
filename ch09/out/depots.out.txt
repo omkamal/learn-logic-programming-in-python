@@ -1,0 +1,7 @@
+(65, 'hub>north>east>mill>port')
+(75, 'hub>east>mill>port')
+(80, 'hub>north>mill>port')
+(95, 'hub>north>east>port')
+(105, 'hub>east>port')
+[(65,)]
+[('hub>north>east>mill>port',)]

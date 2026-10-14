@@ -1,0 +1,2 @@
+FROM employee WHERE employee.salary < ? (90,)
+['cid']

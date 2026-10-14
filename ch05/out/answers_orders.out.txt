@@ -1,0 +1,5 @@
+a ('answer', [('CAI', 'LHR', 470), ('DXB', 'CAI', 500), ('LHR', 'DXB', 330)])
+b ('error', 'DatalogError')
+c ('answer', [('CAI', 'LHR', 470), ('DXB', 'CAI', 500), ('LHR', 'DXB', 330)])
+d ('answer', [])
+e ('error', 'DatalogError')

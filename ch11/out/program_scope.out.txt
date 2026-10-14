@@ -1,0 +1,3 @@
+NameError: name 'road' is not defined
+[('cafe',), ('harbor',), ('school',)]
+TypeError: Datalog programs are not callable

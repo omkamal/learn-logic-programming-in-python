@@ -1,0 +1,6 @@
+loop of 1: FIRST: finished | LAST: finished
+loop of 2: FIRST: finished | LAST: finished
+loop of 3: FIRST: finished | LAST: no answer after 5 s
+loop of 4: FIRST: finished | LAST: no answer after 5 s
+loop of 5: FIRST: finished | LAST: no answer after 5 s
+loop of 6: FIRST: finished | LAST: no answer after 5 s

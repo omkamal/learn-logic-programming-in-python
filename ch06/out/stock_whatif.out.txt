@@ -1,0 +1,2 @@
+[]
+[('lamp', 'west'), ('mug', 'east'), ('rug', 'west')]

@@ -1,0 +1,8 @@
+loop of 1: FIRST: found 1 | LAST: found 1
+loop of 2: FIRST: found 2 | LAST: found 2
+loop of 3: FIRST: found 3 | LAST: no answer in 5 s
+loop of 4: FIRST: found 4 | LAST: no answer in 5 s
+loop of 5: FIRST: found 5 | LAST: no answer in 5 s
+loop of 6: FIRST: found 6 | LAST: no answer in 5 s
+loop of 7: FIRST: found 7 | LAST: no answer in 5 s
+loop of 8: FIRST: found 8 | LAST: no answer in 5 s

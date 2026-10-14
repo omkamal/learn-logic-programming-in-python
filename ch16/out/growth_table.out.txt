@@ -1,0 +1,11 @@
+shape   links    pairs  seconds  peak MB  microseconds per pair
+chain      25      325     0.00       45         10.5
+chain      50     1275     0.01       46          9.9
+chain     100     5050     0.05       52          9.6
+chain     200    20100     0.21       75         10.3
+chain     400    80200     0.96      165         12.0
+chain     800   320400     3.87      527         12.1
+chain    1600  1280800    15.59     1966         12.2
+ring      400   160000     1.89      284         11.8
+tree     1022     8194     0.09       59         11.1
+tree     8190    90114     1.24      204         13.7

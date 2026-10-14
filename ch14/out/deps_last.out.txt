@@ -1,0 +1,5 @@
+to install shop: crypto db driver http pool sockets strings templates
+    threads tls web
+if tls is removed: http shop web
+asking for cycles...
+[killed after 10 s: no answer, no error]

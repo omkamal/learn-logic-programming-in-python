@@ -1,0 +1,6 @@
+fill, calculate, check -> [('noor', 'poems', 150)]
+fill, check, calculate -> DatalogError
+calculate, fill, check -> []
+calculate, check, fill -> []
+check, fill, calculate -> DatalogError
+check, calculate, fill -> DatalogError

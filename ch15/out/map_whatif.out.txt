@@ -1,0 +1,2 @@
+three colors: 0
+four colors:  24

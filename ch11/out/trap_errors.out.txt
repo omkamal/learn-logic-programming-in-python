@@ -1,0 +1,7 @@
+('box', 300)
+('empty', ZeroDivisionError('integer division or modulo by zero'))
+('box', AttributeError("'TypeError' object has no attribute '__call__'"))
+('empty', AttributeError("'TypeError' object has no attribute '__call__'"))
+('box', 300.0)
+('empty', ZeroDivisionError('division by zero'))
+[('empty', ZeroDivisionError('integer division or modulo by zero'))]

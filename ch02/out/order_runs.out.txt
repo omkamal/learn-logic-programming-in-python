@@ -1,0 +1,5 @@
+seed 1 -> [('carol',), ('bob',)] [('bob',), ('carol',)]
+seed 2 -> [('bob',), ('carol',)] [('bob',), ('carol',)]
+20 runs, seed 0, parent('alice', X): 2 different raw order(s)
+20 runs, seed 0, parent(X, Y): 1 different raw order(s)
+every-card order = typing order reversed: True

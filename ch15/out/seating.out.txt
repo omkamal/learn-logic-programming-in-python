@@ -1,0 +1,12 @@
+plans  clue added
+  120  every guest in a different chair
+   72  Cy does not sit next to Dee
+   24  Eli sits at one end
+   12  Ben sits somewhere left of Dee
+    4  Cy sits next to Eli
+    1  Ana sits somewhere left of Cy
+chair 0 Ben
+chair 1 Dee
+chair 2 Ana
+chair 3 Cy
+chair 4 Eli

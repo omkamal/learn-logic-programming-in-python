@@ -1,0 +1,8 @@
+axle     20
+bearing  40
+bolt     80
+grip     20
+rim      20
+spoke    640
+tire     20
+tube     30

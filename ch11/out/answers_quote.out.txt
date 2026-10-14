@@ -1,0 +1,2 @@
+SyntaxError: unterminated string literal (detected at line 1) (load, line 1)
+[("Mira's corner",)]

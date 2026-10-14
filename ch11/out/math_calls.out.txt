@@ -1,0 +1,4 @@
+('cafe', 'depot', 5.0)
+('cafe', 'school', 5.0)
+('depot', 'school', 10.0)
+1.4142135623730951 sqrt atomized

@@ -1,0 +1,9 @@
+a diamond, no loop: FIRST found 3 | LAST found 3
+an airport with a flight to itself: FIRST found 1 | LAST found 1
+two airports, round trip: FIRST found 2 | LAST found 2
+round trip plus a tail: FIRST found 3 | LAST found 3
+a path leading into a round trip: FIRST found 2 | LAST found 2
+two round trips joined: FIRST found 3 | LAST found 3
+three airports in a ring: FIRST found 3 | LAST no answer in 5 s
+our network, from CAI: FIRST found 4 | LAST no answer in 5 s
+our network, from JFK: FIRST found 0 | LAST found 0

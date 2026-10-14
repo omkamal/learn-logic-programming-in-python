@@ -1,0 +1,5 @@
+spokes in a bicycle: 64
+bolts in a bicycle:  8
+a wheel contains: axle bearing hub rim spoke tire
+leaf parts: axle bearing bolt grip rim spoke tire tube
+bolts end up in: bicycle frame handlebar

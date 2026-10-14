@@ -1,0 +1,3 @@
+a wheel is built from: [('hub', 1), ('rim', 1), ('spoke', 32), ('tire', 1)]
+a bicycle is built from: [('frame', 1), ('handlebar', 1), ('wheel', 2)]
+bolts are used in: [('frame', 4), ('handlebar', 4)]

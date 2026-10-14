@@ -1,0 +1,2 @@
+before the slip: []
+after the slip:  [('bicycle',), ('wheel',)]

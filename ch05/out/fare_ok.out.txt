@@ -1,0 +1,5 @@
+[('CAI', 'DXB'), ('LHR', 'CAI')]
+('CAI', 'DXB', 175)
+('DXB', 'LHR', 345)
+('LHR', 'CAI', 205)
+('LHR', 'JFK', 435)
