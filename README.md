@@ -14,6 +14,8 @@ uv run python ch01/grandparent_rule.py         # run one example (the grandparen
 uv run python tools/check_examples.py ch04     # run one chapter's examples and check them against their recorded results
 ```
 
+**License.** The code in this repository is released under the [MIT License](LICENSE). The text and illustrations of the book are not part of it.
+
 Install [uv](https://docs.astral.sh/uv/) first (Appendix A of the book shows how). Start with the chapter you are reading. Running **everything** (`--all`) takes a good while on a laptop: about 560 examples, 21 of them deliberately left running until a timeout stops them (see below).
 
 You do not have to use `uv`: any Python 3.12 or 3.13 environment with the two packages in `pyproject.toml` works. The outputs were recorded on **Python 3.12.3** (a `.python-version` file asks `uv` for 3.12); on 3.13 two examples (`ch08/arg_errors.py`, `appC/err_agg_python_sum.py`) differ only in the wording of a Python error message.
