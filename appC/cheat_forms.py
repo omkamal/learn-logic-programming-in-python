@@ -18,7 +18,7 @@ def vat_cents(n):                        # a plain function, defined first
 
 pyDatalog.create_terms('vat_cents')      # ... and named afterwards
 
-# --- B.1 facts: + and - ---------------------------------------------
+# --- facts: + and - ---------------------------------------------
 +parent('alice', 'bob')
 +parent('alice', 'carol')
 +parent('bob', 'dave')
@@ -33,7 +33,7 @@ pyDatalog.retract_fact('parent', 'erin', 'fay')
 +(fib[0] == 0)
 +(fib[1] == 1)
 
-# --- B.2 queries and answers -----------------------------------------
+# --- queries and answers -----------------------------------------
 q = parent('alice', X)
 print(type(q).__name__)                   # printing q shows a table
 print(sorted(q.data))                     # a list of tuples
@@ -43,7 +43,7 @@ print(sorted(pyDatalog.ask("parent('alice', X)").answers))
 print(pyDatalog.ask("parent('zed', X)"))  # None
 print((cost['pen'] == N).data, (cost[X] == 12).data)
 
-# --- B.3 rules: <=, &, OR, ~, comparisons, calculations -------------
+# --- rules: <=, &, OR, ~, comparisons, calculations -------------
 grandparent(X, Z) <= parent(X, Y) & parent(Y, Z)
 sibling(X, Y) <= parent(P, X) & parent(P, Y) & (X != Y)
 ancestor(X, Y) <= parent(X, Y)                       # base clause
@@ -67,14 +67,14 @@ big(X) <= price(X, N) & (N > 5)                      # fill, then check
 double(X, Y) <= price(X, N) & (Y == N * 2)           # fill, then compute
 print(sorted(big(X).data), sorted(double(X, Y).data))
 
-# --- B.3 functional notation ------------------------------------------
+# --- functional notation ------------------------------------------
 dcost[X] = cost[X] * 2
 factorial[N] = N * factorial[N - 1]
 fib[N] = fib[N - 1] + fib[N - 2]
 print((dcost['book'] == V).data, (factorial[5] == V).data,
       (fib[20] == V).data)
 
-# --- B.4 aggregates ----------------------------------------------------
+# --- aggregates ----------------------------------------------------
 for name, dept, pay in [('ann', 'eng', 120), ('bob', 'eng', 100),
                         ('cid', 'ops', 80), ('dee', 'ops', 90)]:
     +emp(name, dept, pay)
@@ -98,7 +98,7 @@ path(X, Y, C) <= path(X, Z, K) & link(Z, Y, M) & (C == K + M)
 (cheapest[X, Y] == min_(C, order_by=C)) <= path(X, Y, C)
 print(sorted((cheapest[X, Y] == C).data))
 
-# --- B.5 Python functions and text -------------------------------------
+# --- Python functions and text -------------------------------------
 tax(X, T) <= price(X, N) & (T == vat_cents(N * 100))
 root(X, T) <= price(X, N) & (T == math.sqrt(N * N))
 print(sorted(tax(X, T).data), sorted(root(X, T).data))

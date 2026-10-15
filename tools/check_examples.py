@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 r"""Run every example and check it against its recorded result.
 
-    python tools/check_examples.py --all                 # every folder: ch01 ... ch17, appC, course
+    python tools/check_examples.py --all                 # every folder: ch01 ... ch16, appC, course
     python tools/check_examples.py ch04 ch05             # some chapters
-    python tools/check_examples.py ch04/reach.py         # one file
+    python tools/check_examples.py ch04/ancestor.py      # one file
     python tools/check_examples.py --all -j 8 --json report.json
     python tools/check_examples.py --all --repeat 2      # also run each file twice and list the ones whose output changes
 
@@ -18,7 +18,7 @@ of a set have no fixed order) | PASS-VARIES (same exit code, different content, 
 a demo whose numbers, ties or timings change on purpose) | DIFF (same exit code, different content: look at it) |
 FAIL (different exit code) | SKIP (interpreter not installed) | SKIP-HEAVY (marked `heavy:` in its first lines, run only
 with --heavy: ch16/estimate.py needs about 7 GB of memory). Exit status 0 only when nothing is DIFF or FAIL.
-A file may start with a comment `# timeout: 15` (or `% timeout: 15`): the default limit is 60 seconds.
+A file may start with a comment `# timeout: 15`: the default limit is 60 seconds.
 Environment used for every run: PYTHONHASHSEED=0, PYTHONWARNINGS=ignore::SyntaxWarning (a harmless warning that
 pyDatalog 0.22.4 prints on Python 3.12).
 """
@@ -27,7 +27,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
-DEFAULT_ROOT = ROOT / "code" / "book" if (ROOT / "code" / "book").is_dir() else ROOT
+DEFAULT_ROOT = ROOT
 RUNNABLE = {".py", ".sql"}
 
 
@@ -51,8 +51,8 @@ def command(path: Path):
 def norm(text: str) -> str:
     """Make outputs comparable across machines: drop directory parts of file paths in tracebacks."""
     text = re.sub(r'File "[^"]*[/\\]([^/\\"]+)"', r'File ".../\1"', text)
-    text = re.sub(r"(?:/[^\s\"':()]+)+/site-packages/", ".../site-packages/", text)
-    text = re.sub(r"/home/[^/\s]+/", "~/", text)                                      # a home directory is not part of the result   # the library location differs per machine
+    text = re.sub(r"(?:/[^\s\"':()]+)+/site-packages/", ".../site-packages/", text)   # the library location differs per machine
+    text = re.sub(r"/home/[^/\s]+/", "~/", text)                                      # a home directory is not part of the result
     return text.replace("\r\n", "\n")
 
 
@@ -130,6 +130,8 @@ def main():
     ap.add_argument("--heavy", action="store_true", help="also run the examples marked `heavy:` (ch16/estimate.py needs about 7 GB of memory)")
     ap.add_argument("--json", help="write the full report here")
     a = ap.parse_args()
+    if not shutil.which("timeout"):
+        sys.exit("needs the GNU 'timeout' command (Linux; on macOS: brew install coreutils; on Windows use WSL)")
     root = Path(a.root)
     allow_f = Path(__file__).resolve().parent / "nondeterministic.txt"
     allow = {l.strip() for l in allow_f.read_text().splitlines() if l.strip() and not l.startswith("#")} if allow_f.exists() else set()
@@ -172,7 +174,7 @@ def main():
           f"   ({hangs} deliberate hang{'s' if hangs != 1 else ''} stopped by the timeout)")
     if a.json:
         Path(a.json).write_text(json.dumps(results, indent=1))
-    return 1 if counts.get("FAIL") or counts.get("DIFF") else 0
+    return 1 if counts.get("FAIL") or counts.get("DIFF") or (results and counts.get("SKIP", 0) == len(results)) else 0
 
 
 if __name__ == "__main__":
