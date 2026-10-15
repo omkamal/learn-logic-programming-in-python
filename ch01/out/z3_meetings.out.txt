@@ -1,7 +1,0 @@
-sat
- 9:00-10:00  standup
-10:00-12:00  design
-13:00-14:00  review
-14:00-16:00  demo
-demo must end by 14:00 -> unsat
-timetables in all: 3

@@ -1,11 +1,9 @@
 [project]
-name = "pydatalog-cookbook"
+name = "learn-logic-programming-in-python"
 version = "0.1.0"
-description = "Runnable pyDatalog examples: logic programming in Python"
+description = "Runnable examples for the book Learn Logic Programming in Python (pyDatalog)"
 requires-python = ">=3.12,<3.14"
 dependencies = [
     "pyDatalog==0.22.4",
     "sqlalchemy==2.1.4",
-    "z3-solver==5.1.0.0",
-    "clingo==5.8.2",
 ]

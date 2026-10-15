@@ -1,3 +1,0 @@
-RuntimeError: parsing failed
-<block>:2:1-2: error: syntax error, unexpected EOF
-

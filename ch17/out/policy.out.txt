@@ -1,1 +1,0 @@
-Answer: can(maya,delete,report) can(maya,read,report) can(maya,write,report) can(noor,read,report) can(noor,write,report) can(omar,read,report) can(pat,read,report)

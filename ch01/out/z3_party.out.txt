@@ -1,4 +1,0 @@
-rules only:        [['ann', 'bob'], ['bob'], ['cid']]
-and Cid must come: [['cid']]
-Ann and Cid both:  []
-brute force:       [['ann', 'bob'], ['bob'], ['cid']]

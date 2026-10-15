@@ -1,6 +1,0 @@
-pyDatalog            ['CAI', 'DXB', 'JFK', 'LHR']
-SWI-Prolog, tabled   ['CAI', 'DXB', 'JFK', 'LHR']
-SQLite CTE           ['CAI', 'DXB', 'JFK', 'LHR']
-clingo               ['CAI', 'DXB', 'JFK', 'LHR']
-Z3 Fixedpoint        ['CAI', 'DXB', 'JFK', 'LHR']
-all five agree: True

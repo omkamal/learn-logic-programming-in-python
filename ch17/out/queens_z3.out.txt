@@ -1,3 +1,0 @@
-first answer: [3, 1, 7, 5, 0, 2, 4, 6] in 0.005 s
-92 solutions in 0.287 s
-smallest: (0, 4, 7, 5, 2, 6, 1, 3)

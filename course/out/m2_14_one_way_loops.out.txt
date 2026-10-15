@@ -1,0 +1,7 @@
+ring of 3, one-way: FIRST: ['A', 'B', 'C'] | LAST: no answer after 5 s
+ring of 3 + B>A: FIRST: ['A', 'B', 'C'] | LAST: ['A', 'B', 'C']
+ring of 4, one-way: FIRST: ['A', 'B', 'C', 'D'] | LAST: no answer after 5 s
+ring of 4 + B>A: FIRST: ['A', 'B', 'C', 'D'] | LAST: ['A', 'B', 'C', 'D']
+course network, from CAI: FIRST: ['CAI', 'DXB', 'JFK', 'LHR'] | LAST: no answer after 5 s
+course network + DXB>CAI: FIRST: ['CAI', 'DXB', 'JFK', 'LHR'] | LAST: ['CAI', 'DXB', 'JFK', 'LHR']
+course network, from JFK: FIRST: [] | LAST: []

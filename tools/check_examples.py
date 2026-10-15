@@ -8,7 +8,7 @@ r"""Run every example and check it against its recorded result.
     python tools/check_examples.py --all --repeat 2      # also run each file twice and list the ones whose output changes
 
 Each chapter folder is copied to a temporary directory, so nothing is written next to the sources. For every runnable file
-(*.py, *.pl with SWI-Prolog, *.lp with clingo, *.sql with the sqlite3 command line) the script compares
+(*.py, and *.sql with the sqlite3 command line) the script compares
 
   * the exit code with  out/<name>.exit       (0 = normal; 124 = the example is a deliberate hang that the timeout stops)
   * the printed output with  out/<name>.out.txt
@@ -28,24 +28,19 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 DEFAULT_ROOT = ROOT / "code" / "book" if (ROOT / "code" / "book").is_dir() else ROOT
-RUNNABLE = {".py", ".pl", ".lp", ".sql"}
+RUNNABLE = {".py", ".sql"}
 
 
-def interpreter(ext, swipl):
+def interpreter(ext):
     if ext == ".py":
         return [sys.executable]
-    if ext == ".pl":
-        return [swipl, "-q", "-g", "halt"] if swipl else None
-    if ext == ".lp":
-        return [sys.executable, "-c", "import sys,clingo;c=clingo.Control(['0']);c.load(sys.argv[1]);"
-                "c.ground([('base',[])]);c.solve(on_model=lambda m: print('Answer:', ' '.join(sorted(map(str, m.symbols(shown=True))))))"]
     if ext == ".sql":
         return ["sqlite3", ":memory:"] if shutil.which("sqlite3") else None
     return None
 
 
-def command(path: Path, swipl):
-    base = interpreter(path.suffix, swipl)
+def command(path: Path):
+    base = interpreter(path.suffix)
     if base is None:
         return None
     if path.suffix == ".sql":
@@ -61,11 +56,11 @@ def norm(text: str) -> str:
     return text.replace("\r\n", "\n")
 
 
-def run_file(path: Path, env, swipl):
+def run_file(path: Path, env):
     head = "\n".join(path.read_text(errors="replace").splitlines()[:3])
     m = re.search(r"timeout:\s*(\d+)", head)
     limit = int(m.group(1)) if m else 60
-    cmd = command(path, swipl)
+    cmd = command(path)
     if cmd is None:
         return None, "", 0.0
     t0 = time.time()
@@ -81,12 +76,10 @@ def run_file(path: Path, env, swipl):
     return code, out, time.time() - t0
 
 
-def check_chapter(src: Path, files, repeat, allow, swipl, heavy=False):
+def check_chapter(src: Path, files, repeat, allow, heavy=False):
     results = []
     env = dict(os.environ, PYTHONHASHSEED="0", PYTHONWARNINGS="ignore::SyntaxWarning", PYTHONUNBUFFERED="1")
-    if swipl:
-        env["PATH"] = str(Path(swipl).resolve().parent) + os.pathsep + env.get("PATH", "")   # examples call `swipl` from the PATH
-    with tempfile.TemporaryDirectory(prefix=f"cookbook-{src.name}-") as tmp:
+    with tempfile.TemporaryDirectory(prefix=f"examples-{src.name}-") as tmp:
         work = Path(tmp) / src.name
         shutil.copytree(src, work, ignore=shutil.ignore_patterns("__pycache__", "*.db", "*.sqlite"))   # out/ is copied: comparison scripts read it
         for f in files:
@@ -98,7 +91,7 @@ def check_chapter(src: Path, files, repeat, allow, swipl, heavy=False):
             if is_heavy and not heavy:
                 results.append({"file": f"{src.name}/{f.name}", "exit": None, "expected_exit": exp_exit, "seconds": 0.0, "verdict": "SKIP-HEAVY"})
                 continue
-            code, out, secs = run_file(p, env, swipl)
+            code, out, secs = run_file(p, env)
             rec = {"file": f"{src.name}/{f.name}", "exit": code, "expected_exit": exp_exit, "seconds": round(secs, 1)}
             if code is None:
                 rec["verdict"] = "SKIP"
@@ -120,7 +113,7 @@ def check_chapter(src: Path, files, repeat, allow, swipl, heavy=False):
             if repeat > 1 and code is not None:
                 outs = {norm(out)}
                 for _ in range(repeat - 1):
-                    outs.add(norm(run_file(p, env, swipl)[1]))
+                    outs.add(norm(run_file(p, env)[1]))
                 rec["varies_in_order_only"] = len(outs) > 1 and len({tuple(sorted(o.splitlines())) for o in outs}) == 1
                 rec["varies_between_runs"] = len({tuple(sorted(o.splitlines())) for o in outs}) > 1   # the content changes
             results.append(rec)
@@ -136,7 +129,6 @@ def main():
     ap.add_argument("--repeat", type=int, default=1, help="run each file this many times (>1 lists files whose output varies)")
     ap.add_argument("--heavy", action="store_true", help="also run the examples marked `heavy:` (ch16/estimate.py needs about 7 GB of memory)")
     ap.add_argument("--json", help="write the full report here")
-    ap.add_argument("--swipl", default=os.environ.get("SWIPL") or shutil.which("swipl"))
     a = ap.parse_args()
     root = Path(a.root)
     allow_f = Path(__file__).resolve().parent / "nondeterministic.txt"
@@ -156,7 +148,7 @@ def main():
             print(f"not found: {t}"); return 2
     results = []
     with cf.ThreadPoolExecutor(max_workers=a.j) as ex:
-        futs = {ex.submit(check_chapter, d, fs, a.repeat, allow, a.swipl, a.heavy): d for d, fs in jobs.items() if fs}
+        futs = {ex.submit(check_chapter, d, fs, a.repeat, allow, a.heavy): d for d, fs in jobs.items() if fs}
         for fu in cf.as_completed(futs):
             results += fu.result()
     results.sort(key=lambda r: r["file"])

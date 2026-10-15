@@ -1,1 +1,0 @@
-ERROR:    Stack limit (1.0Gb) exceeded

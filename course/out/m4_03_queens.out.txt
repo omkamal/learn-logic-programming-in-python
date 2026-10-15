@@ -1,2 +1,2 @@
-92 solutions in 0.265 s
+92 solutions in 0.262 s
 (0, 4, 7, 5, 2, 6, 1, 3)

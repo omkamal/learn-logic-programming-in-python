@@ -1,7 +1,7 @@
 X    
 -----
-bob  
 carol
+bob  
 X  
 ---
 bob
@@ -13,8 +13,8 @@ alice | carol
 alice | bob  
 Z   
 ----
-dave
 erin
+dave
 X     | Y   
 ------|-----
 alice | erin

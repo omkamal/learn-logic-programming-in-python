@@ -1,6 +1,0 @@
-admins unlimited
-  R can be broken, for example with amt = 5001
-  largest approvable amount: oo
-admins capped at 5000
-  no amount breaks R (for every whole number)
-  largest approvable amount: 5000

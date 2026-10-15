@@ -1,5 +1,0 @@
-1000 [('maya',), ('noor',)]
-1001 [('maya',)]
-5000 [('maya',)]
-5001 [('maya',)]
-DatalogError Error: left hand side of comparison must be bound: >=/2

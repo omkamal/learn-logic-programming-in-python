@@ -1,3 +1,0 @@
-reach(cai, jfk)    yes
-reach(jfk, cai)    no
-reach(cai, nrt)    no answer after 3 s (stopped)

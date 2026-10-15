@@ -1,7 +1,0 @@
-bob
-carol
-dave
-erin
-yes
-[carol,alice]
-[bob,carol,dave,erin,fay]

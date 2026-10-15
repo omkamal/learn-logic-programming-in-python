@@ -1,4 +1,4 @@
-seed 1 -> [('carol',), ('bob',)] [('bob',), ('carol',)]
-seed 2 -> [('bob',), ('carol',)] [('bob',), ('carol',)]
+seed 1 -> [('bob',), ('carol',)] [('bob',), ('carol',)]
+seed 2 -> [('carol',), ('bob',)] [('bob',), ('carol',)]
 seed 3 -> [('carol',), ('bob',)] [('bob',), ('carol',)]
 seed 4 -> [('carol',), ('bob',)] [('bob',), ('carol',)]

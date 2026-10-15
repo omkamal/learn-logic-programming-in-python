@@ -1,32 +1,31 @@
-# PyDatalog Cookbook
+# Learn Logic Programming in Python: companion code
 
-Runnable examples for [pyDatalog](https://pypi.org/project/pyDatalog/): logic programming in Python. Every example is a small, complete file
-that you can run, and the output it printed when it was recorded sits next to it. The examples are the companion code of the book
-*Logic Programming in Python with PyDatalog: A Gentle, Illustrated Guide* (in preparation) and of the four-video course of the same name.
+The runnable examples of the book *Learn Logic Programming in Python: A Gentle, Illustrated Guide with PyDatalog, from Facts and Rules to Recursion, SQL and Real Applications*
+by Omar Kamal Hosney, and of the four-video course on [pyDatalog](https://pypi.org/project/pyDatalog/). The book teaches you to think in facts, rules and queries, using
+pyDatalog inside ordinary Python. Every example is a small, complete file that you can run, and the output it printed when it was recorded sits next to it.
 
 ## Quick start
 
 ```bash
-git clone https://github.com/omkamal/pydatalog-cookbook.git
-cd pydatalog-cookbook
-uv sync                                        # Python 3.12 with pyDatalog 0.22.4, SQLAlchemy 2.1.4, z3-solver, clingo
+git clone https://github.com/omkamal/learn-logic-programming-in-python.git
+cd learn-logic-programming-in-python
+uv sync                                        # Python 3.12 with pyDatalog 0.22.4 and SQLAlchemy 2.1.4
 uv run python ch04/ancestor.py                 # run one example
 uv run python tools/check_examples.py ch04     # run one chapter's examples and check them against their recorded results
 ```
 
-Start with a single chapter such as `ch04`. Running **everything** (`--all`) takes a good while on a laptop: about 601 examples, 24 of them deliberately left running until a timeout stops them (see below).
+Start with a single chapter such as `ch04`. Running **everything** (`--all`) takes a good while on a laptop: about 559 examples, 21 of them deliberately left running until a timeout stops them (see below).
 
-You do not have to use `uv`: any Python 3.12 or 3.13 environment with the four packages in `pyproject.toml` works.
+You do not have to use `uv`: any Python 3.12 or 3.13 environment with the two packages in `pyproject.toml` works.
 On Python 3.12 the first import of pyDatalog prints a harmless `SyntaxWarning` (a regular expression in the library); the verifier silences it.
-Two folders also need tools that are not Python packages: `ch01` and `ch17` call **SWI-Prolog** (`swipl` on the PATH; for example
-`conda install -c conda-forge swi-prolog`), and `ch01` and `ch08` call the **`sqlite3`** command line. Without them the `.pl` examples are reported as `SKIP` and the three Python examples that start `swipl` (`ch01/reach_loop_run.py`, `ch01/answers_predict.py`, `ch17/ring_engines.py`) fail.
+One example in `ch08` uses the **`sqlite3`** command line; without it that example is reported as `SKIP`.
 
 ## What is in each folder
 
 | folder | topic | examples |
 |---|---|---|
-| `appC/` | Appendix C: every error message and silent failure of the book, reproduced one by one | 90 |
-| `ch01/` | A Short History of Asking Computers Questions | 25 |
+| `appC/` | Appendix C: every error message and silent failure of the book, reproduced one by one | 85 |
+| `ch01/` | What Is Logic Programming? | 3 |
 | `ch02/` | Setting Up and Stating Facts | 31 |
 | `ch03/` | Rules: Teaching the Computer to Infer | 31 |
 | `ch04/` | Recursion, Gently | 26 |
@@ -42,10 +41,10 @@ Two folders also need tools that are not Python packages: `ch01` and `ch17` call
 | `ch14/` | Capstone: Parts, Teams and Dependencies | 33 |
 | `ch15/` | Puzzles: The N-Queens Problem | 25 |
 | `ch16/` | Speed, Limits and Debugging | 23 |
-| `ch17/` | Choosing Your Tool | 16 |
-| `course/` | The 44 snippets of the four-video course (modules 1 to 4) | 44 |
+| `course/` | The 45 snippets of the four-video course (modules 1 to 4) | 45 |
 
 Each folder has an `out/` subfolder with `name.out.txt` (the recorded output) and `name.exit` (the recorded exit code) for every example.
+The folder numbers are the chapter numbers of the book, and the file name printed above each code block of the book is the path of the file in this repository.
 
 ## One heavy example
 
@@ -62,14 +61,14 @@ Each folder has an `out/` subfolder with `name.out.txt` (the recorded output) an
 and the printed output with the recorded ones. Verdicts: `PASS`, `PASS-ORDER` (the same lines in another order: answers of a set have no fixed order),
 `PASS-VARIES` (listed in `tools/nondeterministic.txt`), `DIFF`, `FAIL`, `SKIP` (a tool is missing) and `SKIP-HEAVY` (see above). The exit status is non-zero only for `DIFF` and `FAIL`.
 
-* **24 examples are deliberate hangs.** They show what a program that never finishes looks like; a timeout stops them, the recorded exit code is 124
+* **21 examples are deliberate hangs.** They show what a program that never finishes looks like; a timeout stops them, the recorded exit code is 124
   and the last recorded line reads `[killed after N s: no answer, no error]`. A header such as `# timeout: 10` on the first lines sets the limit.
-* **30 examples change from run to run on purpose** (answer order inside a line, ties, memory sizes, timings). They are listed in `tools/nondeterministic.txt`,
+* **25 examples change from run to run on purpose** (answer order inside a line, ties, memory sizes, timings). They are listed in `tools/nondeterministic.txt`,
   and for them only the exit code is compared. All other examples print the same text every time.
 * Timings in the recorded outputs come from one machine (Intel Core i7-14700K, Linux). Expect other numbers on yours.
 
 ## How these were checked
 
-All 601 examples were run from a fresh `uv sync` of this repository and passed `tools/check_examples.py --all --heavy`
-(Python 3.12.3, pyDatalog 0.22.4, SQLAlchemy 2.1.4, z3-solver 5.1.0.0, clingo 5.8.2, SWI-Prolog 10.0.0).
+All 559 examples were run from a fresh `uv sync` of this repository and passed `tools/check_examples.py --all --heavy`
+(Python 3.12.3, pyDatalog 0.22.4, SQLAlchemy 2.1.4, SQLite 3.49.1).
 Setup-diagnostic scripts that print the versions of one particular machine, and outputs that were captured by hand rather than by a script, are not included.
